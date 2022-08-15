@@ -1,0 +1,357 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #96BD1D;
+}
+header nav .navbar-brand {
+  margin: 0%;
+}
+header nav .navbar-brand img {
+  height: 20vh;
+}
+header nav .navbar-nav {
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header nav .navbar-nav a {
+  text-decoration: none;
+  color: #96BD1D;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.5rem 0.75rem;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  border: 2px white solid;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+header nav .navbar-nav a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+main #about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  height: 70vh;
+}
+main #about h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+@media (max-width: 991px) {
+  main #about h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  main #about h1 {
+    font-size: 2rem;
+  }
+}
+main #about p {
+  width: 65%;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 1199px) {
+  main #about p {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 991px) {
+  main #about p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  main #about p {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  main #about p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1399px) {
+  main #about img {
+    height: 10rem;
+  }
+}
+@media (max-width: 576px) {
+  main #about img {
+    height: 8rem;
+  }
+}
+main #frescura {
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main #frescura img {
+  position: absolute;
+  z-index: 2;
+  margin-top: 3rem;
+  left: 2rem;
+  border-radius: 10px;
+}
+@media (max-width: 1399px) {
+  main #frescura img {
+    height: 25rem;
+    left: 4rem;
+  }
+}
+@media (max-width: 1199px) {
+  main #frescura img {
+    top: 4rem;
+    left: 25rem;
+    margin-top: 0%;
+  }
+}
+@media (max-width: 991px) {
+  main #frescura img {
+    height: 20rem;
+    left: 15rem;
+    top: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  main #frescura img {
+    left: 5rem;
+  }
+}
+@media (max-width: 576px) {
+  main #frescura img {
+    height: 10rem;
+    top: 5rem;
+    left: 30%;
+  }
+}
+main #frescura div {
+  position: absolute;
+  background-color: #fbb540;
+  height: 35rem;
+  width: 43rem;
+  z-index: 1;
+  right: 5rem;
+  top: 4rem;
+  border-radius: 10px;
+  padding: 6rem 1.5rem 0 12rem;
+}
+@media (max-width: 1399px) {
+  main #frescura div {
+    height: 25rem;
+    width: 33rem;
+    padding: 6rem 1.5rem 0 6rem;
+  }
+}
+@media (max-width: 1199px) {
+  main #frescura div {
+    margin-top: 7rem;
+    left: 2rem;
+    top: none;
+    padding: 2rem 9rem 0 1rem;
+  }
+}
+@media (max-width: 991px) {
+  main #frescura div {
+    height: 30rem;
+    padding: 12rem 0rem 0 1rem;
+  }
+}
+@media (max-width: 767px) {
+  main #frescura div {
+    width: 28rem;
+  }
+}
+@media (max-width: 576px) {
+  main #frescura div {
+    width: 16.5rem;
+    padding: 6rem 0rem 0 1rem;
+    left: 20%;
+  }
+}
+@media (max-width: 344px) {
+  main #frescura div {
+    left: 10%;
+  }
+}
+main #frescura div h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+@media (max-width: 1399px) {
+  main #frescura div h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  main #frescura div h1 {
+    font-size: 2rem;
+  }
+}
+main #frescura div p {
+  width: 90%;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+@media (max-width: 1399px) {
+  main #frescura div p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  main #frescura div p {
+    font-size: 1rem;
+  }
+}
+main #frescura div a {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #96BD1D;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 2px #96BD1D solid;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+@media (max-width: 576px) {
+  main #frescura div a {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+  }
+}
+main #frescura div a:hover {
+  background-color: transparent;
+}
+main #contactanos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+}
+main #contactanos h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+@media (max-width: 576px) {
+  main #contactanos h1 {
+    font-size: 2.5rem;
+  }
+}
+main #contactanos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+}
+main #contactanos ul li:nth-child(3) {
+  margin: 0%;
+}
+main #contactanos ul li {
+  margin-right: 2rem;
+}
+main #contactanos ul li img {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+main #contactanos ul li img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer {
+  background-color: #333333;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 424px) {
+  footer {
+    font-size: 0.9rem;
+  }
+}
+footer p {
+  margin: 0%;
+  padding: 0%;
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 424px) {
+  footer a {
+    font-size: 1rem;
+  }
+}
